@@ -1,0 +1,6 @@
+.*/
+**/bazel-*
+docs/
+bin/
+obj/
+*.gcov
