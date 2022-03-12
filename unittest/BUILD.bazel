@@ -1,0 +1,12 @@
+cc_test(
+	name = "importippcpunit",
+	size = "small",
+	srcs = [
+		"ippcp.cc",
+	],
+	copts = ["-std=c++17"],
+	deps = [
+		"@com_google_googletest//:gtest_main",
+		"@com_stablecc_scclib_ippcp//:importippcplib",
+	],
+)

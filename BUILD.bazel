@@ -1,0 +1,11 @@
+cc_library(
+	name = "importippcplib",
+	copts = ["-std=c++17"],
+	srcs = [
+		"ippcp.cc",
+	],
+	deps = [
+		"@import_ippcp//:extippcplib"
+	],
+	visibility = ["//visibility:public"],
+)
