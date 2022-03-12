@@ -1,2 +1,7 @@
-// IPP Cryptography requires no initialization. Test ipp include only.
 #include <ippcp.h>
+
+// IPP Cryptography requires no initialization. Test linkage only.
+void _ippcplink()
+{
+	ippcpGetLibVersion();
+}
