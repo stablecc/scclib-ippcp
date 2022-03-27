@@ -16,7 +16,7 @@ $ sudo ldconfig
 ## licensing
 
 Original source:
-* [BSD 3-Clause License](LICENSE)
+* [BSD 3-Clause License](lic/bsd_3_clause.txt)
 
 External and redistributable:
 * [ippcp](lic/intel.txt)
