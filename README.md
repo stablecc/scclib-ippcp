@@ -20,3 +20,4 @@ Original source:
 
 External and redistributable:
 * [ippcp](lic/intel.txt)
+* [googletest](lic/google.txt)
