@@ -9,7 +9,7 @@ The IPP library should be installed in the default location `/opt/intel`, and sh
 made available at run time, for example:
 ```
 $ cat /etc/ld.so.conf.d/ippcp.conf 
-/opt/intel/ippcp/lib/intel64
+/opt/intel/oneapi/ippcp/latest/lib/intel64
 $ sudo ldconfig
 ```
 

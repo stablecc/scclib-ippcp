@@ -31,10 +31,10 @@ IMPORT_IPPCP := 1
 
 # Expects libraries in /opt/intel
 
-BLDLIBS += $(BASE)/import/ippcp
+BLDLIBS += $(BASE)/scclib-ippcp
 
-CPPFLAGS += -isystem /opt/intel/ippcp/include
-SLIBS := -L /opt/intel/ippcp/lib/intel64 -lippcp $(SLIBS)
+CPPFLAGS += -isystem /opt/intel/oneapi/ippcp/latest/include
+SLIBS := -L /opt/intel/oneapi/ippcp/latest/lib/intel64 -lippcp $(SLIBS)
 
 ifeq ($(BLDTYPE),debug)
 SLIBS := -limportippcpd $(SLIBS)

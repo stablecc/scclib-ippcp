@@ -26,11 +26,11 @@
 # CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-BASE = ../..
+BASE = ..
 
-CPPFLAGS += -isystem /opt/intel/ippcp/include
+CPPFLAGS += -isystem /opt/intel/oneapi/ippcp/latest/include
 
 NAME = importippcp
 SRCS = ippcp.cc
 
-include $(BASE)/make/sl.mk
+include $(BASE)/scclib/make/sl.mk
