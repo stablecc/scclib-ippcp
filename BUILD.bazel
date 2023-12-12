@@ -28,7 +28,7 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 cc_library(
 	name = "importippcplib",
-	copts = ["-std=c++17"],
+	copts = ["-std=c++20"],
 	srcs = [
 		"ippcp.cc",
 	],

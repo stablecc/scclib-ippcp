@@ -32,7 +32,7 @@ cc_test(
 	srcs = [
 		"ippcp.cc",
 	],
-	copts = ["-std=c++17"],
+	copts = ["-std=c++20"],
 	deps = [
 		"@com_google_googletest//:gtest_main",
 		"@com_stablecc_scclib_ippcp//:importippcplib",
